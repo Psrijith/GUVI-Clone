@@ -1,0 +1,185 @@
+    .navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 65px;
+    }
+    .navbar-brand img {
+    margin-left: 20px;
+    }
+
+    .custom-navbar {
+        margin-left: -20px; 
+    }
+
+    .nav-link img {
+        margin-right: 2px;  
+    }
+
+    .navbar-nav {
+        display: flex;
+        align-items: center;
+        gap: 0;  
+    }
+
+    .navbar-nav > .nav-link,
+    .navbar-nav > .dropdown {
+        margin: 0;  
+    }
+
+    .red-box {
+        background-color: rgb(211, 38, 38); 
+        color: white;  
+        padding: 2px 5px;  
+        border-radius: 3px;  
+    }
+
+    /*courses*/
+    .courses{
+        display: flex;
+        padding-top:75px; 
+        flex-direction: column;  
+        align-items: center;     
+        justify-content: center;  
+        text-align: center;       
+        margin: 0;               
+    }
+
+
+    /*select menu bar*/
+    .scrollmenu { 
+    display: flex;
+    background-color: #F6F7F8;
+    margin-top: 20px;
+    margin-left: 110px;
+    margin-right: 110px;
+    overflow: auto; 
+    justify-content: space-around;
+    }
+
+
+
+    div.scrollmenu a {
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    }
+
+    div.scrollmenu a:hover ,a.selected{
+    background-color: #E6F7E9;
+    }
+
+    /*cards*/
+    .card-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .card {
+        position: relative; 
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-image {
+        width: 100%;  
+        height: auto; 
+        max-height: 160px;  
+    }
+
+    .card b {
+        margin: 10px;
+    }
+
+    .card p {
+        margin: 10px;
+        color: #666;
+        flex-grow: 1;
+    }
+
+    .small-button {
+        position: absolute;  
+        top: 120px;  
+        left: 10px; 
+        background:linear-gradient(23deg,#4998fe,#0560d5);
+        color: white;
+        padding: 5px 10px;
+        text-decoration: none;
+        border-radius: 4px;
+        z-index: 1;  
+    }
+
+    .small-button:hover {
+        background-color: #0056b3;
+    }
+    
+
+    .pagination {
+        justify-content: center;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .dot {
+        height: 8px;
+        width: 8px;
+        margin: 0 5px;
+        background-color: #9ee086;
+        border-radius: 50%;
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    .dot.active {
+        background-color:  #0dba4b;  
+    }
+
+
+    /*webkata*/
+    .webkata{
+        margin-top: 45px;
+        margin-left: 200px;
+        margin-right: 200px;
+        margin-bottom: 160px;
+        display: flex; 
+    }
+
+    /*footer*/
+    .footer{
+        background: linear-gradient(180deg, #2a2a2a, #2d2d2d);
+    }
+
+    /*for bot fixed*/
+
+    .bot-icon {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 1000;
+    }
+
+    .bot-icon img {
+        width: 50px;
+        height: auto;
+        cursor: pointer;
+    }
+
+    /*This is for sidebar*/
+
+    ::-webkit-scrollbar {
+        width: 5px;  
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: #888;  
+        border-radius: 2px;  
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background-color: #555;  
+    }
