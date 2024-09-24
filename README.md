@@ -1,5 +1,5 @@
 # GUVI-Clone 
-original link [GUVI original](guvi.in)
+original link [GUVI original](https://www.guvi.in/)
 
 This repository is for the GUVI clone project as part of the Chubb assignment.
 
